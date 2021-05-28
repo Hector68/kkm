@@ -128,7 +128,7 @@
 
 ## Консольные команды
 * `mygento:atol:report` - Отображает отчет. Аргументы: today, yesterday, week
-* `mygento:atol:refund` - Отправляет возврат. Аргументы: IncrementId сущности
-* `mygento:atol:sell` - Отправляет счет. Аргументы: IncrementId сущности
+* `mygento:atol:refund` - Отправляет возврат. Аргументы: IncrementId сущности. При указании ключа `-i` увеличится external_id
+* `mygento:atol:sell` - Отправляет счет. Аргументы: IncrementId сущности. При указании ключа `-i` увеличится external_id
 * `mygento:atol:resell` - Запускает процесс resell. Отправляет refund по текущему чеку. Аргументы: IncrementId сущности. При указании ключа `-f` увеличится external_id.
 * `mygento:atol:update` - Запрашивает данные о статусе. Аргументы: UUID или "all". Если указать 'all' - обновит все зависшие (`wait`) отправки
